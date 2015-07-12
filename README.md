@@ -54,7 +54,6 @@ void path(double *x,
 
     // the index
     while (j < *ny) {
-    
         while (-1 < i && i < *nx) {
             *((*idx)+k) = (*ny-j-1)*(*nx)+i;
             ++k;
