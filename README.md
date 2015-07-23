@@ -82,7 +82,7 @@ void path(double *x,
 
     // gen path
     path(&x, &y, &dx, &dy, &nx, &ny, &pts, &idx);
-    printf("\nPlaned:\n"
+    printf("\nPlanned:\n"
            "%10sX: %4.2lf, dx: %4.2lf\n"
            "%10sY: %4.2lf, dy: %4.2lf\n", "", x, dx, "", y, dy);
 
@@ -117,7 +117,7 @@ Input:
           X: 6.60, dx: 2.60
           Y: 4.70, dy: 1.80
 
-Planed:
+Planned:
           X: 6.60, dx: 2.20
           Y: 4.70, dy: 1.57
 

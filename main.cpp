@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
     // gen path
     path(&x, &y, &dx, &dy, &nx, &ny, &pts, &idx);
-    printf("\nPlaned:\n"
+    printf("\nPlanned:\n"
            "%10sX: %4.2lf, dx: %4.2lf\n"
            "%10sY: %4.2lf, dy: %4.2lf\n", "", x, dx, "", y, dy);
 
